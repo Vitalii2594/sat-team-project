@@ -4,21 +4,27 @@
   | default @import url()
   |============================
 */
+/* RESET */
 @import url('./reset.css');
-@import url('./header.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* FONT */
+@import url('./font-face.css');
+/* GENERAL */
+@import url('./general.css');
+/* HEADER */
+@import url();
+/* HERO */
+@import url();
+/* ABOUT US */
+@import url();
+/* CATALOG */
+@import url();
+/* NEW WATCHES */
+@import url();
+/* SALE */
+@import url();
+/* FOOTER */
+@import url();
+/* MOBILE-MENU */
+@import url();
+/* MODAL-WIND */
+@import url();
