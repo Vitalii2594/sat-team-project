@@ -1,6 +1,7 @@
 .new-watches {
-    display: block;
-    padding-bottom: 80px;
+display: block;
+padding-bottom: 80px;
+padding-top: 162px;
 }
 .new-watches-title {
 font-family: 'Epilogue';
@@ -10,7 +11,6 @@ line-height: 1.17;
 letter-spacing: 0.06em;
 color: rgba(20, 20, 20, 0.4);
 margin-bottom: 8px;
-
 }
 .watches-title {
 font-family: 'Epilogue';
@@ -18,7 +18,7 @@ font-weight: 600;
 font-size: 32px;
 line-height: 1.25;
 letter-spacing: -0.02em;
-color: #141414;
+color: var(--black-color);
 width: 335px;
 height: 120px;
 margin-bottom: 40px;
