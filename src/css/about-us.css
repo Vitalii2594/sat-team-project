@@ -1,0 +1,56 @@
+.about-us-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-us-title {
+  margin-bottom: 40px;
+}
+.about-us-paragraph {
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: var(--black-color);
+
+  margin-bottom: 20px;
+}
+.about-us-media {
+  min-height: 365px;
+  margin-top: 40px;
+  background-image: url(../img/about-clock.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+/* ==================== 375 */
+@media screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+/* ====================768 */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 744px;
+  }
+  .about-us-media {
+    min-height: 465px;
+  }
+  .about-us-flex-tool {
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us-title {
+    margin-bottom: 0;
+    margin-right: 40px;
+    width: 142%;
+  }
+  .about-us-paragraph {
+    margin-bottom: 0;
+  }
+  .about-us-paragraph:not(:last-child) {
+    margin-right: 20px;
+  }
+}
