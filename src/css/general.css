@@ -41,9 +41,6 @@ body {
   padding-right: 20px;
 }
 
-@media screen and (max-width: 767px) {
-}
-
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
@@ -58,7 +55,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .container {
     width: 1216px;
   }

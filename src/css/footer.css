@@ -5,6 +5,10 @@
   padding-bottom: 20px;
 }
 
+.footer-container {
+  position: relative;
+}
+
 .footer-icon {
   fill: currentColor;
 }
@@ -17,23 +21,131 @@
 .footer-bottom-list-link {
   color: rgba(198, 205, 209, 0.9);
 }
-
-.footer-social-item {
-  display: block;
+/* SOCIAL */
+.footer-social-link {
+  display: inline-block;
   padding: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
 }
 
-.footer-social {
-  margin-bottom: 10px;
+.footer-social-icon {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-@media screen and (min-width: 375px) {
+.footer-social {
+  display: flex;
 }
+
+.footer-social-item:not(:first-child) {
+  margin-left: 14px;
+}
+
+/* LOGO DIV */
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.footer-logo-flex {
+  display: inline-block;
+}
+
+.footer-address-link {
+  display: inline-block;
+  font-style: normal;
+}
+
+.footer-address-link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+/* ЯКОРІ */
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-nav-anchor:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+/* BOTTOM-TEXT */
+.footer-bottom {
+  font-size: 12px;
+  line-height: 1.17;
+}
+
+.footer-bottom-list {
+  display: flex;
+}
+
+.footer-bottom-list-link:not(:first-child) {
+  margin-left: 14px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-nav {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+
+  .footer-logo-flex {
+    margin-bottom: 40px;
+  }
+
+  .footer-bottom-text {
+    margin-bottom: 14px;
+  }
+
+  .footer-social-link {
+    margin-bottom: 80px;
+  }
+
+  .footer-logo-flex {
+    width: 141px;
+  }
+}
+
+/* @media screen and (min-width: 375px) {
+} */
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 80px;
+    font-size: 18px;
+    line-height: 1.33;
+  }
+
+  .footer-logo-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 152px;
+  }
+
+  .footer-logo-flex {
+    width: 181px;
+  }
+
+  .footer-item:not(:first-child) {
+    margin-left: 142px;
+  }
+
+  .footer-bottom-flex {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .footer {
+    padding-top: 104px;
+  }
 }
