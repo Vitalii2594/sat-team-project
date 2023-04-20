@@ -9,24 +9,51 @@
     font-style: normal;
     font-weight: 600;
     font-size: 38px;
-    line-height: 40px;
-    letter-spacing: 1.05;
+    line-height: 1.05;
+    letter-spacing: -0.04em;
     color: var(--white-color);
     margin-bottom: 60px;
 }
 
+.slider-nav {
+    width: 266px;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.slider-button {
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--white-color);
+    border-radius: 8px;
+    background-color: var(--black-color);
+
+    margin-right: 12px;
+}
+
+.slider-number {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--white-color);
+    margin-left: auto;
+}
 
 .hero-text {
     font-family: 'Epilogue';
     font-style: normal;
     font-weight: 300;
     font-size: 14px;
-    line-height: 18px;
-    letter-spacing: 1.29;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
     color: var(--white-color);
     width: 248px;
 
-    margin-top: 90px;
+    margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
 }
