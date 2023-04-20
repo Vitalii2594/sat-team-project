@@ -1,0 +1,32 @@
+.hero {
+    background-color: var(--black-color);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-title {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 40px;
+    letter-spacing: 1.05;
+    color: var(--white-color);
+    margin-bottom: 60px;
+}
+
+
+.hero-text {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.29;
+    color: var(--white-color);
+    width: 248px;
+
+    margin-top: 90px;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
