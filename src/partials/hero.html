@@ -1,11 +1,28 @@
 <section class="hero">
   <div class="container">
     <h1 class="hero-title">Welcome to our collection of premium watches</h1>
-    <img
-      src="../img/hero-img/image.jpg"
-      srcset="../img/hero-img/image@2x.jpg 2x"
-      alt="clock"
-    />
+    <picture>
+      <source
+        srcset="
+          ../img/hero-img/imagedesktab.jpg    1x,
+          ../img/hero-img/imagedesktab@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/hero-img/imagedesktab.jpg    1x,
+          ../img/hero-img/imagedesktab@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="../img/hero-img/image.jpg 1x, ../img/hero-img/image@2x.jpg 2x"
+        media="(min-width: 375px)"
+      />
+      <img src="../img/hero-img/image.jpg" alt="clock" />
+    </picture>
+
     <div class="slider-nav">
       <button class="slider-button"></button>
       <button class="slider-button"></button>
@@ -16,11 +33,29 @@
       personality and lifestyle. From classic designs to modern ones, we have a
       watch to suit every taste and occasion.
     </p>
-
-    <img
-      src="../img/hero-img/Rectangle1.jpg"
-      srcset="../img/hero-img/Rectangle1@2x.jpg 2x"
-      alt="clock"
-    />
+    <picture>
+      <source
+        srcset="
+          ../img/hero-img/Rectangle1desk.jpg    1x,
+          ../img/hero-img/Rectangle1desk@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ../img/hero-img/Rectangle1tabl.jpg    1x,
+          ../img/hero-img/Rectangle1tabl@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ../img/hero-img/Rectangle1.jpg    1x,
+          ../img/hero-img/Rectangle1@2x.jpg 2x
+        "
+        media="(min-width: 375px)"
+      />
+      <img src="../img/hero-img/Rectangle1.jpg" alt="clock" />
+    </picture>
   </div>
 </section>
