@@ -25,11 +25,19 @@
 .slider-button {
     width: 32px;
     height: 32px;
-    border: 1px solid var(--white-color);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 32px;
     border-radius: 8px;
     background-color: var(--black-color);
 
     margin-right: 12px;
+}
+
+.slider-button:hover,
+.slider-button:focus {
+    color: var(--white-color);
+    border-color: var(--white-color);
 }
 
 .slider-number {
@@ -56,4 +64,58 @@
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .hero-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero-title {
+        font-size: 60px;
+        line-height: 1.03;
+        letter-spacing: -0.04em;
+    }
+
+    .slider-nav {
+        width: 436px;
+        margin-bottom: 40px;
+    }
+
+    .slider-button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .hero-text {
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hero-container {
+        position: relative;
+    }
+
+    .hero-title {
+        width: 750px;
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 0;
+        right: 20px;
+        margin: 0;
+    }
+
+    .hero-img {
+        margin-left: 64px;
+    }
 }
