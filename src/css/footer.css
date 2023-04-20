@@ -46,6 +46,7 @@
 .footer-logo {
   display: inline-block;
   margin-bottom: 40px;
+  outline: 1px solid red;
 }
 
 .footer-logo-flex {
