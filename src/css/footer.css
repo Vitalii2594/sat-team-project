@@ -1,0 +1,39 @@
+.footer {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.footer-icon {
+  fill: currentColor;
+}
+
+.footer-nav-anchor {
+  text-transform: uppercase;
+}
+
+.footer-bottom-text,
+.footer-bottom-list-link {
+  color: rgba(198, 205, 209, 0.9);
+}
+
+.footer-social-item {
+  display: block;
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.footer-social {
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1440px) {
+}
