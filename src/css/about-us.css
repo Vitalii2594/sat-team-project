@@ -5,6 +5,9 @@
 .about-us-title {
   margin-bottom: 40px;
 }
+.about-us-item {
+  margin-bottom: 20px;
+}
 .about-us-paragraph {
   margin-left: auto;
   margin-right: auto;
@@ -13,8 +16,6 @@
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: var(--black-color);
-
-  margin-bottom: 20px;
 }
 .about-us-media {
   min-height: 365px;
@@ -42,15 +43,31 @@
     display: flex;
     justify-content: space-between;
   }
+  .about-us-list {
+    display: flex;
+    justify-content: space-between;
+  }
   .about-us-title {
     margin-bottom: 0;
     margin-right: 40px;
-    width: 142%;
+    width: 400px;
+    display: block;
   }
-  .about-us-paragraph {
+  .about-us-item {
     margin-bottom: 0;
   }
-  .about-us-paragraph:not(:last-child) {
+  .about-us-item:not(:last-child) {
     margin-right: 20px;
+  }
+}
+/* ==================1280 */
+@media screen and (min-width: 1280px) {
+  .about-us-flex-tool {
+    display: block;
+    flex-grow: 1;
+  }
+  .about-us-title {
+    display: flex;
+    width: 400px;
   }
 }
