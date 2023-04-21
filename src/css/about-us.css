@@ -30,9 +30,6 @@
 }
 /* ==================== 375 */
 @media screen and (min-width: 375px) {
-  .container {
-    width: 375px;
-  }
 }
 /* ====================768 */
 @media screen and (min-width: 768px) {
@@ -40,11 +37,7 @@
     padding-top: 64px;
     padding-bottom: 64px;
   }
-  .container {
-    width: 744px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
+
   .about-us-media {
     min-height: 465px;
   }
@@ -75,11 +68,7 @@
     padding-top: 80px;
     padding-bottom: 80px;
   }
-  .container {
-    width: 1280px;
-    padding-left: 132px;
-    padding-right: 132px;
-  }
+
   .about-us-title {
     display: flex;
     margin-right: 0;
