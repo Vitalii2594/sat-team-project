@@ -24,13 +24,22 @@
             </p>
           </li>
         </ul>
-        <img
-          width="900px"
-          height="500px"
-          class="about-us-gif"
-          src="../img/about-us/about-us-watchspot.gif"
-          alt="about-clock"
-        />
+        <picture>
+          <source
+            srcset="
+              ../img/about-us/about-us.jpg           1x,
+              ../img/about-us/about-us-watchspot.gif 2x
+            "
+            media="(min-width: 375px)"
+          />
+          <img
+            width="900px"
+            height="500px"
+            class="about-us-gif"
+            src="../img/about-us/about-us-watchspot.gif"
+            alt="about-clock"
+          />
+        </picture>
       </div>
     </div>
     <div class="about-us-media"></div>
