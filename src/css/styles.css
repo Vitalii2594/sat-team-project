@@ -19,7 +19,7 @@
 /* CATALOG */
 @import url();
 /* NEW WATCHES */
-@import url();
+@import url('./new-watches.css');
 /* SALE */
 @import url();
 /* FOOTER */
