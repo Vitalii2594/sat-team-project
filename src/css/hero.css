@@ -5,8 +5,6 @@
 }
 
 .hero-title {
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 600;
     font-size: 38px;
     line-height: 1.05;
@@ -41,23 +39,12 @@
 }
 
 .slider-number {
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: var(--white-color);
     margin-left: auto;
 }
 
 .hero-text {
-    font-family: 'Epilogue';
-    font-style: normal;
     font-weight: 300;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
     color: var(--white-color);
     width: 248px;
 
@@ -100,6 +87,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+    .hero {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
     .hero-container {
         position: relative;
     }
