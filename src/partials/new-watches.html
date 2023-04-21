@@ -4,16 +4,39 @@
         <h3 class="watches-title">Green And Bronze—The Match Made In Heaven</h3>
             <ul class="list-menu list">
                 <li class="menu-item">
-                    <img
-                    srcset="./img//new-watches-img/watch-hand-mobile@2x.jpg 2x"
-                    src="./img/new-watches-img/watch-hand-mobile.jpg" alt="hand" width="335" height="260" /> 
-                   
-                </li>  
-                <li class="menu-item">
-                    <img
-                    srcset="./img/new-watches-img/watch-mobile@2x.jpg 2x"
-                    src="./img/new-watches-img/watch-mobile.jpg" alt="watch" width="335" height="260" />
+                    <picture>
+                        <source
+                        srcset="./img/new-watches-img/watch-hand-desktop.jpg 1x, ./img/new-watches-img/watch-hand-desktop@2x.jpg 2x"
+                        media="(min-width: 1280px)"
+                        />
+                        <source
+                        srcset="./img/new-watches-img/watch-hand-tablet.jpg 1x, ./img/new-watches-img/watch-hand-tablet@2x.jpg 2x" 
+                        media="(min-width: 768px)" 
+                        />
+                        <source
+                        srcset="./img/new-watches-img/watch-hand-mobile.jpg 1x, ./img/new-watches-img/watch-hand-mobile@2x.jpg 2x"
+                        media="(min-width: 375px)"
+                        />
+                       <img src="./img/new-watches-img/watch-hand-mobile.jpg" alt="hand" width="576" height="422"/> 
+                    </picture>
                 </li>
-            </ul>
+                    <li class="menu-item">
+                    <picture>
+                        <source
+                        srcset="./img/new-watches-img/watch-desktop.jpg 1x, ./img/new-watches-img/watch-desktop@2x.jpg 2x" 
+                        media="(min-width: 1280px)"
+                        />
+                        <source
+                        srcset="./img/new-watches-img/watch-tablet.jpg 1x, ./img/new-watches-img/watch-tablet@2x.jpg 2x" 
+                        media="(min-width: 768px)"
+                        />
+                        <source
+                        srcset="/img/new-watches-img/watch-mobile.jpg 1x, ./img/new-watches-img/watch-mobile@2x.jpg 2x" 
+                        media="(min-width: 375px)"
+                        />
+                        <img src="./img/new-watches-img/watch-mobile.jpg" alt="watch" width="576" height="422"/>
+                    </picture>
+                </li>
+                </ul>
     </div>
 </section>
