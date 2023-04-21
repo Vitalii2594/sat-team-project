@@ -13,7 +13,7 @@ margin-bottom: 8px;
 .new-watch-title {
 font-weight: 600;
 font-size: 32px;
-width: 335px;
+max-width: 335px;
 margin-bottom: 40px;
 }
 .new-watch-menu {
@@ -32,8 +32,7 @@ font-size: 40px;
 line-height: 1.10;
 letter-spacing: -0.02em;
 color: var(--accent-color);
-width: 448px;
-/* height: 88px; */
+max-width: 448px;
 }
 .new-watch-menu {
 flex-direction: row;
