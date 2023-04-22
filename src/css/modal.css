@@ -1,30 +1,27 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* RESET */
-@import url('./reset.css');
-/* FONT */
-@import url('./font-face.css');
-/* GENERAL */
-@import url('./general.css');
-/* HEADER */
-@import url();
-/* HERO */
-@import url('./hero.css');
-/* ABOUT US */
-@import url('./about-us.css');
-/* CATALOG */
-@import url();
-/* NEW WATCHES */
-@import url('./new-watches.css');
-/* SALE */
-@import url();
-/* FOOTER */
-@import url(./footer.css);
-/* MOBILE-MENU */
-@import url();
-/* MODAL-WIND */
-@import url();
+/* Modal-window */
+.watch__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-watch {
+  display: block;
+}
+.booking__decorative-container {
+  display: flex;
+}
+
+.modal-form-fild {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-input-desc {
+}
+.modal-form-input-wrapper {
+}
+
+.modal-form-input-wrapper {
+  display: block;
+  position: relative;
+}
