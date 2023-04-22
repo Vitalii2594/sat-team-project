@@ -49,7 +49,7 @@
   font-size: 14px;
   line-height: 18px;
   letter-spacing: -0.02em;
-  color: rgba(20, 20, 20, 0.5);
+  color: #141414;
 }
 .sale-price-list {
   margin-top: 16px;
@@ -75,7 +75,7 @@
   line-height: 14px;
   letter-spacing: -0.02em;
   text-decoration-line: line-through;
-  color: rgba(20, 20, 20, 0.5);
+  color: #141414;
 }
 
 /* description */
