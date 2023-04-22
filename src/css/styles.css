@@ -25,6 +25,6 @@
 /* FOOTER */
 @import url(./footer.css);
 /* MOBILE-MENU */
-@import url('./burger-menu.css');
+@import url(./burger-menu.css);
 /* MODAL-WIND */
 @import url();
