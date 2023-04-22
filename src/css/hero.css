@@ -32,10 +32,22 @@
     margin-right: 12px;
 }
 
+.hero-btn-svg {
+    display: block;
+    width: 18px;
+    height: 18px;
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
 .slider-button:hover,
 .slider-button:focus {
     color: var(--white-color);
     border-color: var(--white-color);
+}
+
+.slider-button:hover .hero-btn-svg,
+.slider-button:focus .hero-btn-svg {
+    stroke: var(--white-color);
 }
 
 .slider-number {
@@ -78,6 +90,11 @@
     .slider-button {
         width: 40px;
         height: 40px;
+    }
+
+    .hero-btn-svg {
+        width: 24px;
+        height: 24px;
     }
 
     .hero-text {
