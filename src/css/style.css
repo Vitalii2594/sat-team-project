@@ -1,0 +1,27 @@
+/* Modal-window */
+.watch__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-watch {
+  display: block;
+}
+.booking__decorative-container {
+  display: flex;
+}
+
+.modal-form-fild {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-input-desc {
+}
+.modal-form-input-wrapper {
+}
+
+.modal-form-input-wrapper {
+  display: block;
+  position: relative;
+}
