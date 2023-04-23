@@ -162,3 +162,13 @@ color: #FFFFFF;
   transition: border-color 250ms linear;
   margin-top: 24px;
 }
+
+.modal-close {
+  margin-left: 808px;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
