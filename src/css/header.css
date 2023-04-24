@@ -107,3 +107,14 @@
     border-radius: 8px;
   }
 }
+
+
+.header-link, 
+.address-tel {
+    transition: color 250ms var(--cubic-function);
+}
+
+.header-link:is(:hover, :focus),
+.address-tel:is(:hover, :focus) {
+    color: aqua;
+}
