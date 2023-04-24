@@ -31,6 +31,15 @@
         width: 14px;
         height: 14px;
     }
+
+    .mob-menu-open {
+        background-color: transparent;
+        border: none;
+    }
+
+    .icon-menu {
+       fill: #FFFFFF;
+    }
 }
 
 @media screen and (min-width: 375px) {
