@@ -11,7 +11,7 @@
 /* GENERAL */
 @import url('./general.css');
 /* HEADER */
-@import url();
+@import url(./header.css);
 /* HERO */
 @import url();
 /* ABOUT US */
