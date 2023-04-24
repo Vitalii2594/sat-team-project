@@ -1,69 +1,74 @@
-.list {
-  list-style: none;
+.catalog-list-item:nth-last-child(-n + 4) {
+  display: none;
+}
+.catalog-list-item:nth-child(-n + 7) {
+  margin-bottom: 40px;
+}
+.catalog-section {
+  padding-bottom: 80px;
 }
 
-.h {
-  font-family: 'Epilogue';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 44px;
-  letter-spacing: -0.02em;
-  color: #1e2827;
+.catalog-photo-container {
+  padding: 43px 30px;
 }
 
-.watch {
-  font-family: 'Epilogue';
-  font-style: normal;
+.catalog-watch-name {
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.29;
   letter-spacing: -0.02em;
-  color: #141414;
+  color: var(--black-color);
+  margin-top: 14px;
   margin-bottom: 4px;
 }
 
-.paragraph {
-  font-family: 'Epilogue';
-  font-style: normal;
+.catalog-price {
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
-  letter-spacing: -0.02em;
+  line-height: 1.17;
   color: rgba(20, 20, 20, 0.5);
 }
 
-.container {
-  width: 1440px;
-  margin: 0 auto;
+.catalog-title {
+  margin-bottom: 40px;
 }
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
-  row-gap: 64px;
-}
-
-.div {
+.catalog-btn {
   display: block;
-  margin: 80px 132px 210px 132px;
-}
-
-.btn {
-  display: block;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 18px 35px;
-  background: #1e2827;
-  border-radius: 8px;
-  font-family: 'Epilogue';
-  font-style: normal;
-  font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
-  margin-top: 80px;
+  background-color: #1e2827;
+  border-radius: 8px;
+  padding: 14px 28px;
+  margin-left: auto;
+}
+
+.catalog-list {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 375px) {
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .catalog-list-item:nth-child(2n + 1) {
+    margin-right: 32px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .catalog-list-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .catalog-list-item:nth-child(7) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .catalog-list-item:nth-last-child(-n + 4) {
+    display: block;
+  }
 }
