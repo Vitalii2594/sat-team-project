@@ -66,15 +66,19 @@
 }
 /* ==================1280 */
 @media screen and (min-width: 1280px) {
+  .container.position {
+    position: relative;
+    padding-left: 284px;
+  }
   .about-us-section {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 
   .about-us-title {
-    display: flex;
-    margin-right: 0;
-    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .about-us-item:not(:last-child) {
     margin-right: 40px;
@@ -82,8 +86,5 @@
   .about-us-gif {
     display: block;
     margin-top: 40px;
-  }
-  .about-us-media {
-    display: none;
   }
 }
