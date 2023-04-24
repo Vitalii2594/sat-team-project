@@ -10,24 +10,6 @@
     justify-content: space-between;
 }
 
-.header-logo {
-<<<<<<< Updated upstream
-    display: flex; 
-    align-items: center;
-    gap: 4px;
-    letter-spacing: -0.03em;
-    color: #FFFFFF;
-}
-
-
-=======
-    display: flex;
-    align-items: center;
-    gap: 4px;
-}
-
->>>>>>> Stashed changes
-
 @media screen and (max-width: 767px) {
     .header-list {
         display: none;
