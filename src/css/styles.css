@@ -13,17 +13,17 @@
 /* HEADER */
 @import url(./header.css);
 /* HERO */
-@import url();
+@import url('./hero.css');
 /* ABOUT US */
-@import url();
+@import url('./about-us.css');
 /* CATALOG */
 @import url();
 /* NEW WATCHES */
-@import url();
+@import url('./new-watches.css');
 /* SALE */
 @import url();
 /* FOOTER */
-@import url();
+@import url(./footer.css);
 /* MOBILE-MENU */
 @import url();
 /* MODAL-WIND */
