@@ -10,6 +10,16 @@
     justify-content: space-between;
 }
 
+.header-logo {
+    display: flex; 
+    align-items: center;
+    gap: 4px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .header-list {
         display: none;
