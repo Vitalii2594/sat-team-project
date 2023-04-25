@@ -1,113 +1,177 @@
 .hero {
-    background-color: var(--black-color);
-    padding-top: 40px;
-    padding-bottom: 40px;
+  background-color: var(--black-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .hero-title {
-    font-weight: 600;
-    font-size: 38px;
-    line-height: 1.05;
-    letter-spacing: -0.04em;
-    color: var(--white-color);
-    margin-bottom: 60px;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+  color: var(--white-color);
+  margin-bottom: 60px;
 }
 
 .slider-nav {
-    width: 266px;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
+  width: 266px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  gap: 12px;
 }
 
 .slider-button {
-    width: 32px;
-    height: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    color: rgba(255, 255, 255, 0.5);
-    font-size: 32px;
-    border-radius: 8px;
-    background-color: var(--black-color);
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  border-radius: 8px;
+  background-color: var(--black-color);
+  margin-top: 45px;
+}
+.slider-button-prew {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 32px;
+  border-radius: 8px;
+  background-color: var(--black-color);
+  margin-right: 90px;
+  margin-top: 45px;
+}
 
-    margin-right: 12px;
+.hero-btn-svg {
+  display: block;
+  width: 18px;
+  height: 18px;
+  stroke: rgba(255, 255, 255, 0.5);
 }
 
 .slider-button:hover,
 .slider-button:focus {
-    color: var(--white-color);
-    border-color: var(--white-color);
+  color: var(--white-color);
+  border-color: var(--white-color);
+}
+
+.slider-button:hover .hero-btn-svg,
+.slider-button:focus .hero-btn-svg {
+  stroke: var(--white-color);
 }
 
 .slider-number {
-    color: var(--white-color);
-    margin-left: auto;
+  color: var(--white-color);
+
+  margin-top: 20px;
 }
 
 .hero-text {
-    font-weight: 300;
-    color: var(--white-color);
-    width: 248px;
+  font-weight: 300;
+  color: var(--white-color);
+  width: 248px;
 
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 768px) {
-    .hero {
-        padding-top: 64px;
-        padding-bottom: 64px;
-    }
+  .hero {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
 
-    .hero-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
+  .hero-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .hero-title {
-        font-size: 60px;
-        line-height: 1.03;
-        letter-spacing: -0.04em;
-    }
+  .hero-title {
+    font-size: 60px;
+    line-height: 1.03;
+    letter-spacing: -0.04em;
+  }
 
-    .slider-nav {
-        width: 436px;
-        margin-bottom: 40px;
-    }
+  .slider-nav {
+    width: 436px;
+    margin-bottom: 40px;
+  }
 
-    .slider-button {
-        width: 40px;
-        height: 40px;
-    }
+  .slider-button {
+    width: 40px;
+    height: 40px;
+  }
 
-    .hero-text {
-        margin-left: 20px;
-        margin-top: 80px;
-    }
+  .slider-button-prew {
+    width: 40px;
+    height: 40px;
+  }
+
+  .hero-btn-svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .hero-text {
+    margin-left: 20px;
+    margin-top: 80px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero {
-        padding-top: 80px;
-        padding-bottom: 80px;
-    }
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
-    .hero-container {
-        position: relative;
-    }
+  .hero-container {
+    position: relative;
+  }
 
-    .hero-title {
-        width: 750px;
-    }
+  .hero-title {
+    width: 750px;
+  }
 
-    .hero-text {
-        position: absolute;
-        top: 0;
-        right: 132px;
-        margin: 0;
-    }
+  .hero-text {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    margin: 0;
+  }
 
-    .hero-img {
-        margin-left: 64px;
-    }
+  .hero-img {
+    margin-left: 64px;
+  }
+}
+
+.swiper {
+  max-width: 100%;
+  max-height: 255px;
+  background-color: #1e2827;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #1e2827;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../img/swiper/image.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  max-height: 255px;
+  object-fit: cover;
+}
+.swiper-slide6 {
+  display: none;
+}
+.swiper-nawigation {
+  gap: 12px;
 }

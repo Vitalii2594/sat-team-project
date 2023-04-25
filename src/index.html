@@ -9,28 +9,51 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+<<<<<<< HEAD
     <link rel="stylesheet" href="./css/style.css" />
+=======
+    <link rel="stylesheet" href="./css/swiper-styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+>>>>>>> main
   </head>
   <body>
     <!-- HEADER -->
-    <load sec="" />
+    <load sec="./partials/header.html" />
     <!-- HERO -->
     <load sec="./partials/hero.html" />
     <!-- ABOUT US -->
     <load sec="./partials/about-us.html" />
     <!-- CATALOG -->
-    <load sec="" />
+    <load sec="./partials/catalog.html" />
     <!-- NEW WATCHES -->
     <load sec="./partials/new-watches.html" />
     <!-- SALE -->
-    <load sec="" />
+    <load sec="./partials/sale.html" />
     <!-- FOOTER -->
     <load sec="./partials/footer.html" />
     <!-- MOBILE MENU -->
-    <load sec="" />
+    <load sec="./partials/burger-menu.html" />
     <!-- MODAL-WIND -->
     <load sec="./partials/modal.html" />
 
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
     <script type="module" src="/main.js"></script>
+    <script src="./js/sale/jquery-3.3.1.min.js"></script>
+  <script src="./js/sale/sale.js"></script>
   </body>
 </html>

@@ -27,11 +27,11 @@
   padding: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-social-icon {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-social {
@@ -44,9 +44,14 @@
 
 /* LOGO DIV */
 .footer-logo {
-  display: inline-block;
+  display: flex;
   margin-bottom: 40px;
-  outline: 1px solid red;
+  font-size: 15px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  gap: 4px;
+  align-items: center;
 }
 
 .footer-logo-flex {
@@ -82,7 +87,7 @@
   display: flex;
 }
 
-.footer-bottom-list-link:not(:first-child) {
+.footer-bottom-list-item:not(:first-child) {
   margin-left: 14px;
 }
 
@@ -121,8 +126,8 @@
   }
 
   .footer-logo-icon {
-    width: 50px;
-    height: 50px;
+    width: 19px;
+    height: 19px;
   }
 
   .footer-flex-container {
@@ -135,6 +140,10 @@
     width: 181px;
   }
 
+  .footer-nav {
+    min-width: 81px;
+  }
+
   .footer-item:not(:first-child) {
     margin-left: 142px;
   }
@@ -143,10 +152,55 @@
     display: flex;
     justify-content: space-between;
   }
+
+  .footer-social-icon {
+    width: 28px;
+    height: 28px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
   .footer {
     padding-top: 104px;
   }
+}
+
+/* HOVER FOCUS */
+.footer-address-link,
+.footer-nav-anchor-link,
+.footer-social-link,
+.footer-bottom-list-link {
+  transition: color 250ms linear;
+}
+
+.footer-address-link:is(:hover, :focus),
+.footer-nav-anchor-link:is(:hover, :focus),
+.footer-social-link:is(:hover, :focus),
+.footer-bottom-list-item:is(:hover, :focus) {
+  color: aqua;
+}
+
+.footer-social-link .footer-social-icon {
+  transition: transform 250ms var(--cubic-function);
+}
+
+.footer-social-link {
+  transition: border-color 250ms linear;
+}
+
+.footer-social-link:is(:hover, :focus) {
+  border-color: transparent;
+}
+
+.footer-social-link:is(:hover, :focus) .footer-social-icon {
+  transform: scale(1.5);
+}
+
+.footer-bottom-list-link:hover,
+.footer-bottom-list-link:focus {
+  color: aqua;
+}
+
+.footer-bottom-list-link {
+  transition: color 250ms linear;
 }
