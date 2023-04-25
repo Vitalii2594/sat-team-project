@@ -10,8 +10,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     
-    <script type="module" crossorigin src="/sat-team-project/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/sat-team-project/assets/index-63f61c8f.css">
+    
+    <script type="module" crossorigin src="/sat-team-project/assets/index-bcdd80d5.js"></script>
+    <link rel="stylesheet" href="/sat-team-project/assets/index-87411d07.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -34,9 +35,13 @@
         </li>
       </ul>
     </nav>
-    <button type="button" class="mob-menu-open" data-mobilemenu-open>
+    <button
+      type="button"
+      class="mob-menu-open js-open-menu"
+      data-mobilemenu-open
+    >
       <svg width="24" height="24" class="icon-menu">
-        <use href="/sat-team-project/assets/sprite-86ced662.svg#icon-gg_menu-left"></use>
+        <use href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-gg_menu-left"></use>
       </svg>
     </button>
     <a class="button address-tel link" href="tel:+380684439426"
@@ -49,53 +54,87 @@
     <section class="hero">
   <div class="container hero-container">
     <h1 class="hero-title">Welcome to our collection of premium watches</h1>
-    <div>
       <picture>
-        <source
-          srcset="/sat-team-project/assets/imagedesktab-4657998d.jpg 1x, /sat-team-project/assets/imagedesktab@2x-14e9701d.jpg 2x"
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="/sat-team-project/assets/imagedesktab-4657998d.jpg 1x, /sat-team-project/assets/imagedesktab@2x-14e9701d.jpg 2x"
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="/sat-team-project/assets/image-3c21d3c7.jpg 1x, /sat-team-project/assets/image@2x-4c52ad8b.jpg 2x"
-        />
-        <img src="/sat-team-project/assets/image-3c21d3c7.jpg" alt="clock" />
+        <source srcset="/sat-team-project/assets/imagedesktab-4657998d.jpg 1x, /sat-team-project/assets/imagedesktab@2x-14e9701d.jpg 2x" media="(min-width: 1280px)" />
+        <source srcset="/sat-team-project/assets/imagedesktab-4657998d.jpg 1x, /sat-team-project/assets/imagedesktab@2x-14e9701d.jpg 2x" media="(min-width: 768px)" />
+        <source srcset="/sat-team-project/assets/image-3c21d3c7.jpg 1x, /sat-team-project/assets/image@2x-4c52ad8b.jpg 2x" />
+        
       </picture>
+      <div class="swiper mySwiper slider-nav">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="/sat-team-project/assets/desktop1-606f73a9.png 1x, /sat-team-project/assets/desktop1@2x-e01b7c97.png 2x, /sat-team-project/assets/desktop1@3x-6fa2fbce.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/sat-team-project/assets/mobil-1-cb1e66cc.png 1x, /sat-team-project/assets/mobil-1@2x-031cd18e.png 2x, /sat-team-project/assets/mobil-1@3x-93f7c106.png 3x"
+                media="(max-width: 767px)" />
+              <img src="../img/swiper/slide-1.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
 
-      <div class="slider-nav">
-        <button class="slider-button">
-          <svg class="hero-btn-svg">
-            <use href="/sat-team-project/assets/sprite-86ced662.svg#icon-chevron-left"></use>
-          </svg>
-        </button>
-        <button class="slider-button">
-          <svg class="hero-btn-svg">
-            <use href="/sat-team-project/assets/sprite-86ced662.svg#icon-chevron-right"></use>
-          </svg>
-        </button>
-        <div class="slider-number">1 - 5</div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="/sat-team-project/assets/desktop2-0cb2a6f8.png 1x, /sat-team-project/assets/desktop2@2x-805445ca.png 2x, /sat-team-project/assets/desktop2@3x-7ff4c79b.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/sat-team-project/assets/mobil-2-ce5f6040.png 1x, /sat-team-project/assets/mobil-2@2x-afb02ff7.png 2x, /sat-team-project/assets/mobil-2@3x-1c0103c0.png 3x"
+                media="(max-width: 767px)" />
+              <img src="/sat-team-project/assets/slide-2-95838a70.jpg" alt="Alternative text for the image">
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="/sat-team-project/assets/desktop3-f765efe8.png 1x, /sat-team-project/assets/desktop2@3x-7ff4c79b.png 2x, /sat-team-project/assets/desktop3@3x-ffbe7f60.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="./img/swiper/mobil/mobil-3.png 1x, ./img/swiper/mobil/mobil-3@2x.png 2x, ./img/swiper/mobil/mobil-3@3x.png 3x"
+                media="(max-width: 767px)" />
+              <img src="/sat-team-project/assets/slide-3-4ab84d0c.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+              srcset="../img/swiper/desktop/desktop4.png 1x, ../img/swiper/desktop/desktop4@3x.png 2x, ../img/swiper/desktop/desktop4@3x.png 3x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="/sat-team-project/assets/mobil-4-8859f12b.png 1x, /sat-team-project/assets/mobil-4@2x-9aa3e09d.png 2x, /sat-team-project/assets/mobil-4@3x-3de19cb0.png 3x"
+              media="(max-width: 767px)" />
+            <img src="/sat-team-project/assets/slide-4-ed4e6b9c.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+              srcset="/sat-team-project/assets/desktop5-a17c3922.png 1x, /sat-team-project/assets/desktop5@3x-06e826be.png 2x, /sat-team-project/assets/desktop5@3x-06e826be.png 3x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="./img/swiper/mobil/mobil-5.png 1x, ./img/swiper/mobil/mobil-5@2x.png 2x, ./img/swiper/mobil/mobil-5@3x.png 3x"
+              media="(max-width: 767px)" />
+            <img src="/sat-team-project/assets/slide-5-4b5a10bb.jpg" alt="Alternative text for the image">
+          </div>
+          <div class="swiper-slide6"></div>
+        
+        </div>
+        <div class="swiper-buttons ">
+          <div class="swiper-button-next slider-button "></div>
+          <div class="swiper-button-prev slider-button-prew "></div>
+        </div>
+        <div class="swiper-pagination slider-number"></div>
       </div>
-    </div>
+
     <p class="hero-text">
       Our watches are not just timepieces, but also an expression of your
       personality and lifestyle. From classic designs to modern ones, we have a
       watch to suit every taste and occasion.
     </p>
     <picture class="hero-img">
-      <source
-        srcset="/sat-team-project/assets/Rectangle1desk-49a65273.jpg 1x, /sat-team-project/assets/Rectangle1desk@2x-3476f4a7.jpg 2x"
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="/sat-team-project/assets/Rectangle1tabl-4006afee.jpg 1x, /sat-team-project/assets/Rectangle1tabl@2x-7dd53bee.jpg 2x"
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="/sat-team-project/assets/Rectangle1-626807df.jpg 1x, /sat-team-project/assets/Rectangle1@2x-f25e886d.jpg 2x"
-      />
+      <source srcset="/sat-team-project/assets/Rectangle1desk-49a65273.jpg 1x, /sat-team-project/assets/Rectangle1desk@2x-3476f4a7.jpg 2x" media="(min-width: 1280px)" />
+      <source srcset="/sat-team-project/assets/Rectangle1tabl-4006afee.jpg 1x, /sat-team-project/assets/Rectangle1tabl@2x-7dd53bee.jpg 2x" media="(min-width: 768px)" />
+      <source srcset="/sat-team-project/assets/Rectangle1-626807df.jpg 1x, /sat-team-project/assets/Rectangle1@2x-f25e886d.jpg 2x" />
       <img src="/sat-team-project/assets/Rectangle1-626807df.jpg" alt="clock" />
     </picture>
   </div>
@@ -491,8 +530,9 @@
       <div class="footer-logo-flex footer-item">
         <a id="footer-anchor" href="./index.html" class="footer-logo">
           <svg class="footer-logo-icon footer-icon" width="40" height="40">
-            <use href="/sat-team-project/assets/sprite-86ced662.svg#icon-logo"></use>
-          </svg> thewatchspot
+            <use href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-logo"></use>
+          </svg>
+          thewatchspot
         </a>
         <address class="footer-address">
           <a href="tel:+380684439426" class="footer-address-link"
@@ -530,7 +570,7 @@
           >
             <svg class="footer-social-icon footer-icon" width="24" height="24">
               <use
-                href="/sat-team-project/assets/sprite-86ced662.svg#icon-facebook"
+                href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-facebook"
                 class="footer-social-use-icon"
               ></use>
             </svg>
@@ -545,7 +585,7 @@
           >
             <svg class="footer-social-icon footer-icon" width="24" height="24">
               <use
-                href="/sat-team-project/assets/sprite-86ced662.svg#icon-instagram"
+                href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-instagram"
                 class="footer-social-use-icon"
               ></use>
             </svg>
@@ -560,7 +600,7 @@
           >
             <svg class="footer-social-icon footer-icon" width="24" height="24">
               <use
-                href="/sat-team-project/assets/sprite-86ced662.svg#icon-youtube"
+                href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-youtube"
                 class="footer-social-use-icon"
               ></use>
             </svg>
@@ -574,18 +614,83 @@
         &#169;2022 The Watch Spot. All rights reserved.
       </p>
       <ul class="footer-bottom-list footer-bottom-flex-item">
-        <li class="footer-bottom-list-item"><a  class="footer-bottom-list-link" href="">Privacy Policy</a></li>
-        <li class="footer-bottom-list-item"><a  class="footer-bottom-list-link" href="">Terms of Service</a></li>
+        <li class="footer-bottom-list-item">
+          <a class="footer-bottom-list-link" href="">Privacy Policy</a>
+        </li>
+        <li class="footer-bottom-list-item">
+          <a class="footer-bottom-list-link" href="">Terms of Service</a>
+        </li>
       </ul>
     </div>
   </div>
 </footer>
 
     <!-- MOBILE MENU -->
-    <load sec="" />
+    <div class="container">
+  <!-- <button
+    type="button"
+    class="hamburger-button js-open-menu"
+    aria-label="Open Menu"
+  >
+    <svg
+      class="hamburger-icon"
+      width="32"
+      height="22"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path d="M0 0h24v24H0V0z" fill="none" />
+      <path d="M21 17H3v-2h18v2zM21 11H3V9h18v2zM21 3H3v2h18V3z" />
+    </svg>
+  </button> -->
+  <div class="mobile-menu-backdrop js-menu-container"></div>
+  <div class="mobile-menu">
+    <ul class="logo-menu-mobile">
+      <a href="./index.html" class="mobil-menu-logo">
+        <svg class="mobil-menu-icon" width="14" height="14">
+          <use href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-logo"></use>
+        </svg>
+        <p class="menu-title">thewatchspot</p>
+      </a>
+      <button
+        type="button"
+        class="close-button menu-close-button js-close-menu"
+        aria-label="Close Menu"
+      >
+        <svg class="close-button-icon" width="12" height="12">
+          <use href="/sat-team-project/assets/sprite-e08e6c1b.svg#icon-x"></use>
+        </svg>
+      </button>
+    </ul>
+    <ul class="mobile-menu-body">
+      <li><a href="#about-us">ABOUT US</a></li>
+      <li><a href="#catalog">CATALOG</a></li>
+      <li><a href="#sale">SALE</a></li>
+    </ul>
+  </div>
+</div>
+<script src="./js/mobile-menu.js" defer></script>
+
     <!-- MODAL-WIND -->
     <load sec="" />
 
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
     
   </body>
 </html>
