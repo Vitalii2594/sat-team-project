@@ -25,7 +25,7 @@ gap: 20px;
 @media screen and (min-width: 768px) {
 .new-watches {
 padding-top: 48px;
-padding-bottom: 0px;
+padding-bottom: 128px;
 } 
 .new-watch-title {
 font-size: 40px;

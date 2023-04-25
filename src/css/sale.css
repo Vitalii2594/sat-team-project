@@ -17,10 +17,9 @@
 }
 .sale-title {
   margin-bottom: 40px;
-  font-style: normal;
   font-weight: 600;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 1.25;
   letter-spacing: -0.02em;
   align-items: flex-start;
   color: var(--black-color);
@@ -53,18 +52,16 @@
 
 .sale-text-title {
   margin-bottom: 8px;
-  font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 24px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: var(--black-color);
 }
 .sale-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.28;
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.5);
 }
@@ -76,20 +73,17 @@
   margin-bottom: 40px;
 }
 .sale-text-price {
-  font-family: 'Neue Montreal';
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   color: var(--black-color);
 }
 .sale-text-price-line {
   margin-left: 8px;
-  font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 14px;
+  line-height: 1.16;
   letter-spacing: -0.02em;
   text-decoration-line: line-through;
   color: rgba(20, 20, 20, 0.5);
@@ -111,10 +105,9 @@
 }
 .sale-description-title {
   margin-bottom: 17px;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--black-color);
@@ -129,10 +122,9 @@
   margin-bottom: 5px;
 }
 .sale-description-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.28;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
 }
@@ -151,10 +143,9 @@
 
 .sale-details-title {
   margin-bottom: 17px;
-  font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.33;
   letter-spacing: -0.02em;
   text-transform: uppercase;
   color: var(--black-color);
@@ -169,10 +160,9 @@
   margin-bottom: 5px;
 }
 .sale-details-text {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 1.28;
   letter-spacing: -0.01em;
   color: rgba(20, 20, 20, 0.5);
 }
