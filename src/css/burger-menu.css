@@ -98,6 +98,8 @@
   line-height: 12px;
   letter-spacing: -0.03em;
   color: #ffffff;
+  width: 80px;
+  height: 10px;
 }
 
 .close-button,
