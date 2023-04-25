@@ -1,0 +1,185 @@
+.buy-now-btn {
+    background-color: tomato;
+}
+
+.modal-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.backdrop {
+    perspective: 600px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(46, 47, 66, 0.4);
+    z-index: 555;
+    opacity: 1;
+    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal {
+    position: absolute;
+    width: 335px;
+    height: 1073px;
+    background-color: #fcfcfc;
+    top: 50%;
+    left: 50%;
+    padding: 66px 20px 40px 20px;
+    overflow-y: scroll;
+
+    transform: translate(-50%, -50%) scale(1) rotateY(0);
+    opacity: 1;
+    transition: transform 500ms linear 200ms, opacity 700ms linear;
+}
+
+.is-hidden>.modal {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0) rotateY(90deg);
+}
+
+.modal-close {
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    background-color: #e7e9fc;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover,
+.modal-close:focus {
+    fill: red;
+    background-color: teal;
+}
+
+/* *========== Форма ========== */
+
+.form-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: ;
+}
+
+.price {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.modal-form-field {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    padding: 12px 16px;
+}
+
+.modal-form-desc {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 42px;
+    padding-left: 16px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    padding: 12px 16px;
+
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    border-radius: 8px;
+}
+
+.form-coment {
+    display: block;
+    width: 100%;
+    height: 170px;
+    padding: 8px 16px;
+    resize: none;
+
+    border: 1px solid rgba(20, 20, 20, 0.5);
+    border-radius: 8px;
+}
+
+.form-input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.form-coment::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+
+    color: rgba(20, 20, 20, 0.5);
+}
+
+.form-coment:focus {
+    outline: none;
+    border-color: teal;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: teal;
+}
+
+.modal-form-send {
+    display: block;
+    padding: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #1e2827;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.modal-form-send:hover,
+.modal-form-send:focus {
+    background-color: teal;
+}

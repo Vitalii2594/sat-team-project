@@ -1,0 +1,68 @@
+<button type="button" class="buy-now-btn" data-modal-open>buy now</button>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <img class="modal-img" src="" alt="clock" height="276" width="274" />
+    <form class="modal-form">
+      <p class="form-text">Tube Watch S42 Date Steel With Black Case</p>
+      <p class="price">€395</p>
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Full name</span>
+        <input
+          class="form-input"
+          type="text"
+          name="user_name"
+          required
+          minlength="2"
+          pattern="^[a-zA-Zа-яА-Я]+$"
+          title=""
+          placeholder="Enter your full name"
+        />
+      </label>
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Email</span>
+        <input
+          class="form-input"
+          type="email"
+          name="user_email"
+          required
+          placeholder="Enter your email"
+      /></label>
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Card number</span>
+        <input
+          class="form-input"
+          type="text"
+          name="user_card_number"
+          required
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter card"
+        />
+      </label>
+
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Comment</span>
+        <textarea
+          class="form-coment"
+          name="user_coment"
+          placeholder="Enter your text"
+        ></textarea>
+      </label>
+
+      <button type="submit" class="modal-form-send">submit</button>
+    </form>
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icon" width="10" height="10">
+        <use href="../img/logo.svg#icon-x"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script defer src="./modal.js"></script>
