@@ -59,6 +59,10 @@
   .catalog-list-item:nth-child(2n + 1) {
     margin-right: 32px;
   }
+
+  .catalog-title {
+    font-size: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -84,6 +88,11 @@
   .catalog-photo-container {
     padding-top: 26px 0 25px;
   }
+
+  .catalog-title {
+    font-size: 40px;
+  }
+
   /* .catalog-list-item:last-child {
     margin-bottom: 40px;
   } */
