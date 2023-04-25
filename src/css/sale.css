@@ -1,6 +1,5 @@
 /* Sale Section */
-.sale-wrapper {
-  padding-top: 80px;
+.sale-wrapper-section {
   padding-bottom: 80px;
 }
 @media screen and (min-width: 375px) {
@@ -8,14 +7,12 @@
     width: 375px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  .sale-big {
+  .sale-big-gallery {
     height: 350px;
     width: 235px;
-    object-fit: contain;
   }
 }
 .sale-title {
@@ -47,7 +44,11 @@
   color: rgba(20, 20, 20, 0.5);
 }
 .sale-big {
-  background-color: black;}
+  background-color: var(--black-color);
+
+}
+
+  
 /* Text */
 
 .sale-text-title {
@@ -181,7 +182,6 @@
     width: 744px;
   }
   .sale-wrapper-section {
-    padding-top: 128px;
     padding-bottom: 128px;
   }
 
