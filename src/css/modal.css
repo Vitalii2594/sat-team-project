@@ -1,28 +1,4 @@
 /* Modal-window */
-
-h1,
-h2,
-h3,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-ul,
-ol {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-:root {
-  --black-color: #141414;
-  --white-color: #ffffff;
-  /* darkgreen */
-  --accent-color: #1e2827;
-  --cubic-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .modal-container {
   z-index: 5;
 }
