@@ -17,7 +17,7 @@
 /* ABOUT US */
 @import url('./about-us.css');
 /* CATALOG */
-@import url();
+@import url(./catalog.css);
 /* NEW WATCHES */
 @import url('./new-watches.css');
 /* SALE */
