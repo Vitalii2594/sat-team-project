@@ -1,9 +1,7 @@
 .catalog-list-item:nth-last-child(-n + 4) {
   display: none;
 }
-.catalog-list-item:nth-child(-n + 7) {
-  margin-bottom: 40px;
-}
+
 .catalog-section {
   padding-bottom: 80px;
 }
@@ -49,6 +47,12 @@
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 767px) {
+  .catalog-list-item:nth-child(-n + 7) {
+    margin-bottom: 40px;
+  }
+}
+
 @media screen and (min-width: 375px) {
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -70,5 +74,17 @@
 @media screen and (min-width: 1280px) {
   .catalog-list-item:nth-last-child(-n + 4) {
     display: block;
+  }
+  .catalog-list-item:not(:nth-child(4n)) {
+    margin-right: 24px;
+  }
+  .catalog-list-item {
+    width: 276px;
+  }
+  .catalog-photo-container {
+    padding-top: 26px 0 25px;
+  }
+  .catalog-list-item:last-child {
+    margin-bottom: 40px;
   }
 }
