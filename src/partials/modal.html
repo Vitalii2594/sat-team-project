@@ -1,66 +1,101 @@
 <div class="container modal-container">
-      <div class="modal-wind-container">
-          <button type="button" class="modal-close" data-modal-close>
-                <svg class="svg-icon1">
-                  <use href="../img/Modal-window/images/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
-                </svg>
-              </button>
-          <form class="watch__form">
-           <div class="container-watch"> <img src="../img/Modal-window/images/1.jpg" alt="photo-watch" width="274" />
-              <h3 class="name-price">Tube Watch S42 Date Steel With Black Case</h3>
-              <p class="text-price">€395</p>
-            </div>
-            <div class="booking__decorative-container">
-            <label class="modal-form-fild">
-                    <span class="modal-form-input-desc">Full name</span>
-                    <span class="modal-form-input-wrapper">
-                      <input
-                        type="text"
-                        name="Enter your full name"
-                        required
-                        placeholder="Enter your full name"
-                        minlength="2"
-                        class="watch__input-area modal-form-input"
-                      />
-                    </span>
-              <label class="modal-form-fild">
-                    <span class="modal-form-input-desc">Email</span>
-                    <span class="modal-form-input-wrapper">
-                      <input
-                        type="text"
-                        name="Enter your email"
-                        required
-                        placeholder="Enter your email"
-                        minlength="2"
-                        class="watch__input-area modal-form-input"
-                      />
-                    </span>
-                 <label class="modal-form-fild">
-                    <span class="modal-form-input-desc">Card number</span>
-                    <span class="modal-form-input-wrapper">
-                      <input
-                        type="text"
-                        name="Card number"
-                        required
-                        placeholder="Card number"
-                        minlength="2"
-                        class="watch__input-area modal-form-input"
-                      />
-                    </span>
-                    <span class="modal-form-input-desc">Comments</span>
-                    <span class="modal-form-input-wrapper">  </span>
-                     <textarea
-                  class="modal-form-message"
-                  name="Enter your text"
-                  placeholder="Enter your text"
-                ></textarea>
-                  
-                    <button class="booking__btn button-submit" type="submit">
-                  submit
-                </button>
-                <p class="text-modal">By clicking on “Send message” button, you agree to our Privacy Policy, and allow Promodo to use this information for marketing purposes.</p>
-            </form>
-          </div>
+  <div class="modal-wind-container">
+    <button type="button" class="modal-close" data-modal-close></button>
+    <div class="booking__decorative-container">
+      <div class="container-watch">
+        <picture class="container-watch-pic">
+          <source
+            srcset="
+              ../img/Modal-window/img/1.webp    1x,
+              ../img/Modal-window/img/1@2x.webp 2x
+            "
+            type="image/webp"
+            width="274"
+          />
+          <source
+            srcset="
+              ../img/Modal-window/img/1.webp    1x,
+              ../img/Modal-window/img/1@2x.webp 2x
+            "
+            width="274"
+          />
+          <img
+            class="container-watch-img"
+            src="../img/1.png"
+            alt="photo-watch"
+            width="274"
+          />
+        </picture>
+        <h3 class="name-price">Tube Watch S42 Date Steel With Black Case</h3>
+        <p class="text-price">€395</p>
       </div>
-      </div>
- <script src="../js/modal.js"></script>
+      <form class="modal-form">
+        <label class="modal-form-fild">
+          <span class="modal-form-input-desk">Full name</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="text"
+              name="user_name"
+              class="modal-form-input"
+              required
+              pattern="[a-zA-Z]+"
+              minlength="2"
+              placeholder="Enter your full name"
+            />
+          </span>
+        </label>
+        <label class="modal-form-fild">
+          <span class="modal-form-input-desk">Email</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="email"
+              name="user_email"
+              class="modal-form-input"
+              required
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              placeholder="Enter your email"
+            />
+          </span>
+        </label>
+        <label class="modal-form-fild">
+          <span class="modal-form-input-desk">Card number</span>
+          <span class="modal-form-input-wrapper">
+            <input
+              type="tel"
+              name="user_card"
+              class="modal-form-input"
+              required
+              inputmode="numeric"
+              pattern="[0-9\s]{13,19}"
+              autocomplete="cc-number"
+              maxlength="19"
+              placeholder="Enter card"
+            />
+          </span>
+        </label>
+        <label class="modal-form-fild">
+          <span class="modal-form-input-desk">Comments</span>
+          <span class="modal-form-input-wrapper">
+            <textarea
+              class="modal-form-massage"
+              name="user_massage"
+              cols="30"
+              rows="10"
+              placeholder="Enter your text"
+            ></textarea>
+          </span>
+        </label>
+        <button type="submit" class="modal-form-btn">submit</button>
+        <p class="modal-form-text">
+          By clicking on “Submit” button, you agree to our
+          <a
+            rel="noopener no-referrel nofollow"
+            class="modal-form-link"
+            href="#"
+            >Privacy Policy</a
+          >, and allow Promodo to use this information for marketing purposes.
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
