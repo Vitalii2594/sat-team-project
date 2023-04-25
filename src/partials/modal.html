@@ -1,112 +1,120 @@
-<div class="container modal-container">
-  <div class="modal-wind-container">
-    <button type="button" class="modal-close" data-modal-close>
-      <svg class="modal-close-icon" width="10" height="10">
-        <use href="../img/logo.svg#icon-x"></use>
-      </svg>
-    </button>
-    <div class="booking__decorative-container">
-      <div class="container-watch">
-        <picture class="container-watch-pic">
-          <source
-            srcset="
-              ../img/Modal-window/img/1.webp    1x,
-              ../img/Modal-window/img/1@2x.webp 2x
-            "
-            type="image/webp"
-            width="274"
-          />
-          <source
-            srcset="
-              ../img/Modal-window/img/1.webp    1x,
-              ../img/Modal-window/img/1@2x.webp 2x
-            "
-            width="274"
-          />
-          <img
-            class="container-watch-img"
-            src="../img/1.png"
-            alt="photo-watch"
-            width="274"
-          />
-        </picture>
-        <h3 class="name-price">Tube Watch S42 Date Steel With Black Case</h3>
-        <p class="text-price">€395</p>
+<button type="button" class="buy-now-btn" data-modal-open>buy now</button>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="container modal-container">
+      <div class="modal-wind-container">
+        <button type="button" class="modal-close" data-modal-close>
+          <svg class="modal-close-icon" width="10" height="10">
+            <use href="../img/logo.svg#icon-x"></use>
+          </svg>
+        </button>
+        <div class="booking__decorative-container">
+          <div class="container-watch">
+            <picture class="container-watch-pic">
+              <source
+                srcset="
+                  ../img/Modal-window/img/1.webp    1x,
+                  ../img/Modal-window/img/1@2x.webp 2x
+                "
+                type="image/webp"
+                width="274"
+              />
+              <source
+                srcset="
+                  ../img/Modal-window/img/1.webp    1x,
+                  ../img/Modal-window/img/1@2x.webp 2x
+                "
+                width="274"
+              />
+              <img
+                class="container-watch-img"
+                src="../img/1.png"
+                alt="photo-watch"
+                width="274"
+              />
+            </picture>
+            <h3 class="name-price">
+              Tube Watch S42 Date Steel With Black Case
+            </h3>
+            <p class="text-price">€395</p>
+          </div>
+          <form class="modal-form">
+            <label class="modal-form-fild">
+              <span class="modal-form-input-desk">Full name</span>
+              <span class="modal-form-input-wrapper">
+                <input
+                  type="text"
+                  name="user_name"
+                  class="modal-form-input"
+                  required
+                  pattern="[a-zA-Z]+"
+                  minlength="2"
+                  placeholder="Enter your full name"
+                />
+              </span>
+            </label>
+            <label class="modal-form-fild">
+              <span class="modal-form-input-desk">Email</span>
+              <span class="modal-form-input-wrapper">
+                <input
+                  type="email"
+                  name="user_email"
+                  class="modal-form-input"
+                  required
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                  placeholder="Enter your email"
+                />
+              </span>
+            </label>
+            <label class="modal-form-fild">
+              <span class="modal-form-input-desk">Card number</span>
+              <span class="modal-form-input-wrapper">
+                <input
+                  type="tel"
+                  name="user_card"
+                  class="modal-form-input"
+                  required
+                  inputmode="numeric"
+                  pattern="[0-9\s]{13,19}"
+                  autocomplete="cc-number"
+                  maxlength="19"
+                  placeholder="Enter card"
+                />
+              </span>
+            </label>
+            <label class="modal-form-fild">
+              <span class="modal-form-input-desk">Comments</span>
+              <span class="modal-form-input-wrapper">
+                <textarea
+                  class="modal-form-massage"
+                  name="user_massage"
+                  cols="30"
+                  rows="10"
+                  placeholder="Enter your text"
+                ></textarea>
+              </span>
+            </label>
+            <button type="submit" class="modal-form-btn">submit</button>
+            <p class="modal-form-text">
+              By clicking on “Submit” button, you agree to our
+              <a
+                rel="noopener no-referrel nofollow"
+                class="modal-form-link"
+                href="#"
+                >Privacy Policy</a
+              >, and allow Promodo to use this information for marketing
+              purposes.
+            </p>
+          </form>
+        </div>
       </div>
-      <form class="modal-form">
-        <label class="modal-form-fild">
-          <span class="modal-form-input-desk">Full name</span>
-          <span class="modal-form-input-wrapper">
-            <input
-              type="text"
-              name="user_name"
-              class="modal-form-input"
-              required
-              pattern="[a-zA-Z]+"
-              minlength="2"
-              placeholder="Enter your full name"
-            />
-          </span>
-        </label>
-        <label class="modal-form-fild">
-          <span class="modal-form-input-desk">Email</span>
-          <span class="modal-form-input-wrapper">
-            <input
-              type="email"
-              name="user_email"
-              class="modal-form-input"
-              required
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
-              placeholder="Enter your email"
-            />
-          </span>
-        </label>
-        <label class="modal-form-fild">
-          <span class="modal-form-input-desk">Card number</span>
-          <span class="modal-form-input-wrapper">
-            <input
-              type="tel"
-              name="user_card"
-              class="modal-form-input"
-              required
-              inputmode="numeric"
-              pattern="[0-9\s]{13,19}"
-              autocomplete="cc-number"
-              maxlength="19"
-              placeholder="Enter card"
-            />
-          </span>
-        </label>
-        <label class="modal-form-fild">
-          <span class="modal-form-input-desk">Comments</span>
-          <span class="modal-form-input-wrapper">
-            <textarea
-              class="modal-form-massage"
-              name="user_massage"
-              cols="30"
-              rows="10"
-              placeholder="Enter your text"
-            ></textarea>
-          </span>
-        </label>
-        <button type="submit" class="modal-form-btn">submit</button>
-        <p class="modal-form-text">
-          By clicking on “Submit” button, you agree to our
-          <a
-            rel="noopener no-referrel nofollow"
-            class="modal-form-link"
-            href="#"
-            >Privacy Policy</a
-          >, and allow Promodo to use this information for marketing purposes.
-        </p>
-      </form>
     </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="/modal.js"></script>
   </div>
 </div>
-<script
-  defer
-  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-  crossorigin="anonymous"
-></script>
-<script defer src="/modal.js"></script>
