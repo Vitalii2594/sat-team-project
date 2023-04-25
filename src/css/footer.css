@@ -87,7 +87,7 @@
   display: flex;
 }
 
-.footer-bottom-list-link:not(:first-child) {
+.footer-bottom-list-item:not(:first-child) {
   margin-left: 14px;
 }
 
@@ -177,7 +177,7 @@
 .footer-address-link:is(:hover, :focus),
 .footer-nav-anchor-link:is(:hover, :focus),
 .footer-social-link:is(:hover, :focus),
-.footer-bottom-list-link:is(:hover, :focus) {
+.footer-bottom-list-item:is(:hover, :focus) {
   color: aqua;
 }
 
@@ -195,4 +195,13 @@
 
 .footer-social-link:is(:hover, :focus) .footer-social-icon {
   transform: scale(1.5);
+}
+
+.footer-bottom-list-link:hover,
+.footer-bottom-list-link:focus {
+  color: aqua;
+}
+
+.footer-bottom-list-link {
+  transition: color 250ms linear;
 }
