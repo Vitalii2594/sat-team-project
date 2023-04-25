@@ -1,7 +1,7 @@
 // hi імпорт сюди інших файлів js
 
 // МОБІЛЬНЕ МЕНЮ
-import './js/burger.js'
+import './js/burger-menu'
 
 // МОДАЛКА
 // import '' 
