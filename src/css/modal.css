@@ -4,14 +4,9 @@
 }
 
 .modal-wind-container {
-  position: absolute;
   background-color: white;
-  top: 70%;
-  left: 59%;
-  transform: translate(-50%, -40%);
   padding-left: 40px;
   padding-right: 40px;
-  overflow: auto;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
 }
@@ -250,6 +245,10 @@
     margin-left: 20px;
   }
 
+  .modal-form-input {
+    width: 100%;
+  }
+
   .text-price {
     margin-left: 20px;
   }
@@ -262,10 +261,20 @@
     gap: 12px;
   }
 }
+@media screen and (max-width: 767px) {
+  .modal-wind-container {
+    height: 100%;
+    overflow: auto;
+  }
+}
 
 @media screen and (min-width: 375px) {
   .modal-wind-container {
     width: 375px;
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -40%);
   }
 
   .booking__decorative-container {
