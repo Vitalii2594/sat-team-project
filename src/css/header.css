@@ -111,7 +111,7 @@
 
 .header-link, 
 .address-tel {
-    transition: color 250ms var(--cubic-function);
+    transition: color 250ms linear;
 }
 
 .header-link:is(:hover, :focus),

@@ -30,6 +30,7 @@
     background-color: var(--black-color);
 
     margin-right: 12px;
+    transition: 250ms linear;
 }
 
 .hero-btn-svg {
@@ -37,6 +38,7 @@
     width: 18px;
     height: 18px;
     stroke: rgba(255, 255, 255, 0.5);
+    transition: 250ms linear;
 }
 
 .slider-button:hover,
