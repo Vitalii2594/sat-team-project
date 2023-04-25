@@ -1,68 +1,102 @@
 <section class="hero">
   <div class="container hero-container">
     <h1 class="hero-title">Welcome to our collection of premium watches</h1>
-    <div>
       <picture>
-        <source
-          srcset="
+        <source srcset="
             ./img/hero-img/imagedesktab.jpg    1x,
             ./img/hero-img/imagedesktab@2x.jpg 2x
-          "
-          media="(min-width: 1280px)"
-        />
-        <source
-          srcset="
+          " media="(min-width: 1280px)" />
+        <source srcset="
             ./img/hero-img/imagedesktab.jpg    1x,
             ./img/hero-img/imagedesktab@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="./img/hero-img/image.jpg 1x, ./img/hero-img/image@2x.jpg 2x"
-        />
-        <img src="./img/hero-img/image.jpg" alt="clock" />
+          " media="(min-width: 768px)" />
+        <source srcset="./img/hero-img/image.jpg 1x, ./img/hero-img/image@2x.jpg 2x" />
+        
       </picture>
+      <div class="swiper mySwiper slider-nav">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/swiper/desktop/desktop1.png 1x, ./img/swiper/desktop/desktop1@2x.png 2x, ./img/swiper/desktop/desktop1@3x.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="./img/swiper/mobil/mobil-1.png 1x, ./img/swiper/mobil/mobil-1@2x.png 2x, ./img/swiper/mobil/mobil-1@3x.png 3x"
+                media="(max-width: 767px)" />
+              <img src="../img/swiper/slide-1.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
 
-      <div class="slider-nav">
-        <button class="slider-button">
-          <svg class="hero-btn-svg">
-            <use href="./img/sprite.svg#icon-chevron-left"></use>
-          </svg>
-        </button>
-        <button class="slider-button">
-          <svg class="hero-btn-svg">
-            <use href="./img/sprite.svg#icon-chevron-right"></use>
-          </svg>
-        </button>
-        <div class="slider-number">1 - 5</div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/swiper/desktop/desktop2.png 1x, ./img/swiper/desktop/desktop2@2x.png 2x, ./img/swiper/desktop/desktop2@3x.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="./img/swiper/mobil/mobil-2.png 1x, ./img/swiper/mobil/mobil-2@2x.png 2x, ./img/swiper/mobil/mobil-2@3x.png 3x"
+                media="(max-width: 767px)" />
+              <img src="./img/swiper/slide-2.jpg" alt="Alternative text for the image">
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+                srcset="./img/swiper/desktop/desktop3.png 1x, ./img/swiper/desktop/desktop2@3x.png 2x, ./img/swiper/desktop/desktop3@3x.png 3x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="./img/swiper/mobil/mobil-3.png 1x, ./img/swiper/mobil/mobil-3@2x.png 2x, ./img/swiper/mobil/mobil-3@3x.png 3x"
+                media="(max-width: 767px)" />
+              <img src="./img/swiper/slide-3.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+              srcset="../img/swiper/desktop/desktop4.png 1x, ../img/swiper/desktop/desktop4@3x.png 2x, ../img/swiper/desktop/desktop4@3x.png 3x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="./img/swiper/mobil/mobil-4.png 1x, ./img/swiper/mobil/mobil-4@2x.png 2x, ./img/swiper/mobil/mobil-4@3x.png 3x"
+              media="(max-width: 767px)" />
+            <img src="./img/swiper/slide-4.jpg" alt="Alternative text for the image">
+            </picture>
+          </div>
+          <div class="swiper-slide">
+            <picture>
+              <source
+              srcset="./img/swiper/desktop/desktop5.png 1x, ./img/swiper/desktop/desktop5@3x.png 2x, ./img/swiper/desktop/desktop5@3x.png 3x"
+              media="(min-width: 768px)" />
+            <source
+              srcset="./img/swiper/mobil/mobil-5.png 1x, ./img/swiper/mobil/mobil-5@2x.png 2x, ./img/swiper/mobil/mobil-5@3x.png 3x"
+              media="(max-width: 767px)" />
+            <img src="./img/swiper/slide-5.jpg" alt="Alternative text for the image">
+          </div>
+          <div class="swiper-slide6"></div>
+        
+        </div>
+        <div class="swiper-buttons ">
+          <div class="swiper-button-next slider-button "></div>
+          <div class="swiper-button-prev slider-button-prew "></div>
+        </div>
+        <div class="swiper-pagination slider-number"></div>
       </div>
-    </div>
+
     <p class="hero-text">
       Our watches are not just timepieces, but also an expression of your
       personality and lifestyle. From classic designs to modern ones, we have a
       watch to suit every taste and occasion.
     </p>
     <picture class="hero-img">
-      <source
-        srcset="
+      <source srcset="
           ./img/hero-img/Rectangle1desk.jpg    1x,
           ./img/hero-img/Rectangle1desk@2x.jpg 2x
-        "
-        media="(min-width: 1280px)"
-      />
-      <source
-        srcset="
+        " media="(min-width: 1280px)" />
+      <source srcset="
           ./img/hero-img/Rectangle1tabl.jpg    1x,
           ./img/hero-img/Rectangle1tabl@2x.jpg 2x
-        "
-        media="(min-width: 768px)"
-      />
-      <source
-        srcset="
+        " media="(min-width: 768px)" />
+      <source srcset="
           ./img/hero-img/Rectangle1.jpg    1x,
           ./img/hero-img/Rectangle1@2x.jpg 2x
-        "
-      />
+        " />
       <img src="./img/hero-img/Rectangle1.jpg" alt="clock" />
     </picture>
   </div>
