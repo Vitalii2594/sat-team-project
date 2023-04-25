@@ -29,9 +29,7 @@
     font-size: 32px;
     border-radius: 8px;
     background-color: var(--black-color);
-
-    margin-right: 10px;
-    margin-top: 64px;
+    margin-top: 45px;
 }
 .slider-button-prew {
     width: 32px;
@@ -41,9 +39,8 @@
     font-size: 32px;
     border-radius: 8px;
     background-color: var(--black-color);
-margin-left: 10px;
     margin-right: 90px;
-    margin-top: 64px;
+    margin-top: 45px;
 }
 
 .hero-btn-svg {
