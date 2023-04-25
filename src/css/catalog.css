@@ -84,7 +84,7 @@
   .catalog-photo-container {
     padding-top: 26px 0 25px;
   }
-  .catalog-list-item:last-child {
+  /* .catalog-list-item:last-child {
     margin-bottom: 40px;
-  }
+  } */
 }
