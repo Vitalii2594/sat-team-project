@@ -1,10 +1,10 @@
 <section id="sale-wrapper" class="sale-wrapper-section">
   <div class="container">
-    <h2 id="sale-anchor" class="sale-title">Sale</h2>
+    <h2 class="sale-title">Sale</h2>
     <div class="sale-content">
       <div class="sale-gallery">
-        <ul class="sale-small-images">
-          <li>
+        <div class="sale-small">
+          <a class="sale-small-img" href="./img/sale/big/1.jpg">
             <picture>
               <source
                 srcset="
@@ -23,13 +23,13 @@
               <source srcset="./img/sale/sale-img67-mobile.jpg 1x" />
               <img
                 src="./img/sale/sale-img67-mobile.jpg"
-                alt="Watch1"
-                class="watch-one"
+                alt="Watch2"
+                class="watch-two"
               />
             </picture>
-          </li>
-          <li>
-            <picture>
+          </a>
+          <a class="sale-small-img" href="./img/sale/big/2.jpg"
+            ><picture>
               <source
                 srcset="
                   ./img/sale/sale-img64-desctop.jpg    1x,
@@ -47,13 +47,12 @@
               <source srcset="./img/sale/sale-img64-mobile.jpg 1x" />
               <img
                 src="./img/sale/sale-img64-mobile.jpg"
-                alt="Watch2"
-                class="watch-two"
-              />
-            </picture>
-          </li>
-          <li>
-            <picture>
+                alt="Watch3"
+                class="watch-three"
+              /> </picture
+          ></a>
+          <a class="sale-small-img" href="./img/sale/big/3.jpg"
+            ><picture>
               <source
                 srcset="
                   ./img/sale/sale-img65-desctop.jpg    1x,
@@ -73,11 +72,10 @@
                 src="./img/sale/sale-img65-mobile.jpg"
                 alt="Watch3"
                 class="watch-three"
-              />
-            </picture>
-          </li>
-          <li>
-            <picture>
+              /> </picture
+          ></a>
+          <a class="sale-small-img" href="./img/sale/big/4.jpg"
+            ><picture>
               <source
                 srcset="
                   ./img/sale/sale-img66-desctop.jpg    1x,
@@ -95,35 +93,16 @@
               <source srcset="./img/sale/sale-img66-mobile.jpg 1x" />
               <img
                 src="./img/sale/sale-img66-mobile.jpg"
-                alt="Watch4"
-                class="watch-four"
-              />
-            </picture>
-          </li>
-        </ul>
-        <picture class="sale-larege">
-          <source
-            srcset="
-              ./img/sale/sale-img-desctop.jpg    1x,
-              ./img/sale/sale-img-desctop@2x.jpg 2x
-            "
-            media="(min-width: 1280px)"
-          />
-          <source
-            srcset="
-              ./img/sale/sale-img-tablet.jpg    1x,
-              ./img/sale/sale-img-tablet@2x.jpg 2x
-            "
-            media="(min-width: 768px)"
-          />
-          <source srcset="./img/sale/sale-img-mobile.jpg 1x" />
-          <img
-            src="./img/sale/sale-img-mobile.jpg"
-            alt="Watch"
-            class="watch-large"
-          />
-        </picture>
+                alt="Watch3"
+                class="watch-three"
+              /> </picture
+          ></a>
+        </div>
+        <div class="sale-big">
+          <img src="./img/sale/sale-img-desctop.jpg" alt="Старт" />
+        </div>
       </div>
+
       <div class="sale-text-wrap">
         <div>
           <p class="sale-text-title">Greenlane Watch By Police For MenHT</p>
@@ -159,4 +138,6 @@
       </div>
     </div>
   </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/sale.js"></script>
 </section>
