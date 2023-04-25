@@ -265,6 +265,7 @@
   .modal-wind-container {
     height: 100%;
     overflow: auto;
+    padding-bottom: 40px;
   }
 }
 
@@ -357,7 +358,7 @@
   }
 
   .modal-form-text {
-    margin: 0;
+    /* margin: 0; */
     width: 368px;
   }
 }
