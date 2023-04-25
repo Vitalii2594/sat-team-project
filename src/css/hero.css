@@ -165,7 +165,7 @@ margin-left: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url("../img/swiper/desktop/5.png"); */
+  background-image: url("../img/swiper/image.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
