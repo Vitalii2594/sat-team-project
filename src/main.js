@@ -1,13 +1,12 @@
 // hi імпорт сюди інших файлів js
 
 // МОБІЛЬНЕ МЕНЮ
-import './js/burger-menu'
+import './js/burger-menu';
 
 // МОДАЛКА
-import './js/modal' 
-
+import './js/modal';
 
 // ГАЛЕРЕЯ
-import './js/sale/jquery-3.3.1.min'
-import './js/sale/sale'
+import './js/jquery-3.3.1.min';
+import './js/sale';
 // ГАЛЕРЕЯ Кінець
