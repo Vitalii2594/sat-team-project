@@ -193,6 +193,7 @@
         flex-wrap: wrap;
         width: 744px;
         height: 670px;
+        padding: 40px 30px 40px 30px;
     }
 
     .modal-form-field {
@@ -204,6 +205,7 @@
     }
 
     .modal-form {
+        margin-top: 0;
         width: 368px;
     }
 
@@ -221,5 +223,9 @@
 
     .modal-form {
         width: 508px;
+    }
+
+    .modal-form-send {
+        margin-top: 40px;
     }
 }
