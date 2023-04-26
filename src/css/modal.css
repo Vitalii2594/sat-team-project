@@ -171,6 +171,8 @@
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
+  border: none;
+  transition: 250ms linear;
 }
 
 .modal-form-send:hover,
