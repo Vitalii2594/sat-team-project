@@ -68,15 +68,11 @@
 /* *========== Форма ========== */
 
 .form-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
     letter-spacing: -0.02em;
     color: ;
 }
 
 .price {
-    font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: -0.02em;
@@ -184,6 +180,10 @@
         flex-wrap: wrap;
         width: 744px;
         height: 670px;
+    }
+
+    .modal-form-field {
+        font-size: 16px;
     }
 
     .mdl-img-box {
