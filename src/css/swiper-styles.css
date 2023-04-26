@@ -19,9 +19,9 @@
 :root {
 	--swiper-theme-color: #007aff
 }
-.swiper, swiper-container {
-	margin-left: auto;
-	margin-right: auto;
+.swiper, .swiper-container {
+	margin-left: 0;
+	margin-right: 0;
 	position: relative;
 	overflow: hidden;
 	list-style: none;
@@ -29,11 +29,11 @@
 	z-index: 1;
 	display: block
 }
-.swiper-vertical>.swiper-wrapper {
-	flex-direction: column
+.swiper-buttons {
+	display: flex;
+	flex-direction: row;
 }
 .swiper-wrapper {
-	position: relative;
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -55,7 +55,7 @@
 	flex-shrink: 0;
 	width: 100%;
 	height: 100%;
-	position: relative;
+	
 	transition-property: transform;
 	display: block
 }
@@ -207,11 +207,8 @@
 	--swiper-navigation-size: 12px
 }
 .swiper-button-next, .swiper-button-prev {
-	position: absolute;
-	top: var(--swiper-navigation-top-offset, 50%);
-	width: calc(var(--swiper-navigation-size)/ 44 * 27);
-	height: var(--swiper-navigation-size);
-	margin-top: calc(0px - (var(--swiper-navigation-size)/ 2));
+	
+	
 	z-index: 10;
 	cursor: pointer;
 	display: flex;
@@ -240,16 +237,17 @@
 	font-variant: initial;
 	line-height: 1
 }
+/* BTN */
+/* =====================btn=============================== */
 .swiper-button-prev, .swiper-rtl .swiper-button-next {
-	left: var(--swiper-navigation-sides-offset, 10px);
-	right: auto
+margin-top: 20px;
 }
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
 	content: 'prev'
 }
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
-	right: var(--swiper-navigation-sides-offset, 10px);
-	left: auto
+	margin-left: 12px;
+	margin-top: 20px;
 }
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
 	content: 'next'
@@ -257,13 +255,10 @@
 .swiper-button-lock {
 	display: none
 }
-.swiper-pagination {
-	position: absolute;
-	text-align: center;
-	transition: .3s opacity;
-	transform: translate3d(0, 0, 0);
-	z-index: 10
+@media screen and (min-width: 768px) {
+	
 }
+/* btn end */
 .swiper-pagination.swiper-pagination-hidden {
 	opacity: 0
 }
@@ -271,12 +266,14 @@
 	display: none!important
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
-	bottom: var(--swiper-pagination-bottom, 8px);
-	top: var(--swiper-pagination-top, auto);
+	bottom: 10%;
+	right: 14%;
 	height: 10px;
-	width: 100%
+
 	
 }
+
+
 .swiper-pagination-bullets-dynamic {
 	overflow: hidden;
 	font-size: 0
