@@ -37,6 +37,13 @@
   border-radius: 8px;
   padding: 14px 28px;
   margin-left: auto;
+  border: 1px solid #1e2827;
+  transition: 250ms linear;
+}
+
+.catalog-btn:hover,
+.catalog-btn:focus {
+  border: 1px solid #ffffff;
 }
 
 .catalog-list {
