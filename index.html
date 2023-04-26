@@ -12,7 +12,7 @@
     
     
     <script type="module" crossorigin src="/sat-team-project/assets/index-0b8ce90e.js"></script>
-    <link rel="stylesheet" href="/sat-team-project/assets/index-f88476c8.css">
+    <link rel="stylesheet" href="/sat-team-project/assets/index-c8d616c5.css">
   </head>
   <body>
     <!-- HEADER -->
@@ -613,7 +613,7 @@
         <p class="catalog-price">€400</p>
       </li>
     </ul>
-    <button type="button" class="catalog-btn">buy now</button>
+    <button type="button" class="catalog-btn" data-modal-open>buy now</button>
   </div>
 </section>
 
@@ -929,7 +929,87 @@
 <script src="./js/mobile-menu.js" defer></script>
 
     <!-- MODAL-WIND -->
-    <load sec="" />
+    <div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <div class="mdl-img-box">
+      <img
+        class="modal-img"
+        srcset="/sat-team-project/assets/IMG_94661@2x-ceb8b2e9.jpg 2x"
+        src="/sat-team-project/assets/IMG_94661-0c4c7ac5.jpg"
+        alt="clock"
+        height="276"
+        width="274"
+      />
+      <p class="form-text">Tube Watch S42 Date Steel With Black Case</p>
+      <p class="price">€395</p>
+    </div>
+    <form class="modal-form">
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Full name</span>
+        <input
+          class="form-input"
+          type="text"
+          name="user_name"
+          required
+          minlength="2"
+          pattern="^[a-zA-Zа-яА-Я]+$"
+          title=""
+          placeholder="Enter your full name"
+        />
+      </label>
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Email</span>
+        <input
+          class="form-input"
+          type="email"
+          name="user_email"
+          required
+          placeholder="Enter your email"
+      /></label>
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Card number</span>
+        <input
+          class="form-input"
+          type="text"
+          name="user_card_number"
+          required
+          pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+          title="xxxx-xxxx-xxxx-xxxx"
+          placeholder="Enter card"
+        />
+      </label>
+
+      <label class="modal-form-field"
+        ><span class="modal-form-desc">Comment</span>
+        <textarea
+          class="form-coment"
+          name="user_coment"
+          placeholder="Enter your text"
+        ></textarea>
+      </label>
+
+      <button type="submit" class="modal-form-send">submit</button>
+      <p class="modal-text">
+        By clicking on “Submit” button, you agree to our Privacy Policy, and
+        allow Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+    <button type="button" class="modal-close" data-modal-close>
+      <svg class="modal-close-icon" width="10" height="10">
+        <use href="../img/sprite.svg#icon-x"></use>
+      </svg>
+    </button>
+  </div>
+</div>
+<script src="./js/modal.js"></script>
+<script
+  defer
+  src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+  integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+  crossorigin="anonymous"
+></script>
+<script defer src="./modal.js"></script>
+
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
@@ -952,6 +1032,5 @@
     <!-- GALLERY -->
     <script src="./js/sale/jquery-3.3.1.min.js"></script>
     <script src="./js/sale/sale.js"></script>
-    <!-- GALLERY END -->
   </body>
 </html>
