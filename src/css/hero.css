@@ -3,10 +3,12 @@
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .hero-img-wrap {
   margin-top: 40px;
   margin-left: 20px;
 }
+
 .hero-title {
   font-weight: 600;
   font-size: 38px;
@@ -33,6 +35,7 @@
   border-radius: 8px;
   background-color: var(--black-color);
 }
+
 .slider-button-prew {
   width: 40px;
   height: 40px;
@@ -75,6 +78,7 @@
   margin-top: 40px;
   margin-left: auto;
 }
+
 .swiper {
   max-width: 100%;
   max-height: 255px;
@@ -98,12 +102,15 @@
   max-height: 255px;
   object-fit: cover;
 }
+
 .swiper-slide6 {
   display: none;
 }
+
 .swiper-nawigation {
   gap: 12px;
 }
+
 @media screen and (min-width: 375px) {
   .container {
     width: 375px;
@@ -111,23 +118,28 @@
     margin-right: auto;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 744px;
   }
+
   .hero {
     padding-top: 64px;
     padding-bottom: 64px;
   }
+
   .swiper-flex-row {
     display: flex;
     flex-direction: row;
   }
+
   .swiper-flex {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
+
   .hero-title {
     font-size: 60px;
     line-height: 1.03;
@@ -158,18 +170,22 @@
     margin-left: 20px;
     margin-top: 80px;
   }
+
   .hero-img-wrap {
     align-items: center;
     margin-left: 0;
   }
+
   .hero-img {
     width: 704px;
     height: 410px;
   }
+
   .swiper {
     margin-left: 0;
     margin-bottom: 0;
   }
+
   .swiper-buttons {
     margin: 0;
   }
@@ -177,9 +193,11 @@
   .slider-button {
     margin-bottom: 0;
   }
+
   .slider-button-prew {
     margin-bottom: 0;
   }
+
   .slider-number {
     margin-top: 42px;
     margin-left: 312px;
@@ -195,27 +213,28 @@
   }
 
   .hero-container {
+    position: relative;
   }
 
   .hero-title {
     width: 750px;
   }
+
   .hero-img-wrap {
     margin-top: 0;
     margin-left: 64px;
   }
+
   .hero-img {
     width: 676px;
     height: 394px;
   }
+
   .hero-text {
     position: absolute;
-    /* left: 65%;
-    top: 6%;
-    width: 262px;
-    height: 90px; */
-    margin-top: -183px;
-    margin-left: 880px;
+    top: 0;
+    right: 20px;
+    margin: 0;
 
     font-style: normal;
     font-weight: 300;
@@ -225,6 +244,7 @@
     letter-spacing: -0.02em;
     color: #ffffff;
   }
+
   .hero-desctop-wrap {
     display: flex;
     flex-direction: row;
