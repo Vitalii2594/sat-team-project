@@ -1,238 +1,243 @@
 .modal-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .backdrop {
-    perspective: 600px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(46, 47, 66, 0.4);
-    z-index: 555;
-    opacity: 1;
-    transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        opacity 800ms cubic-bezier(0.4, 0, 0.2, 1);
+  perspective: 600px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  z-index: 555;
+  opacity: 1;
+  transition: visibility 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 800ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .modal {
-    position: absolute;
-    width: 335px;
-    /* height: 1073px; */
-    background-color: #fcfcfc;
-    top: 50%;
-    left: 50%;
-    padding: 66px 20px 40px 20px;
-    /* overflow-y: scroll; */
+  position: absolute;
+  width: 335px;
+  /* height: 1073px; */
+  background-color: #fcfcfc;
+  top: 50%;
+  left: 50%;
+  padding: 66px 20px 40px 20px;
+  /* overflow-y: scroll; */
 
-    transform: translate(-50%, -50%) scale(1) rotateY(0);
-    opacity: 1;
-    transition: transform 500ms linear 200ms, opacity 700ms linear;
+  transform: translate(-50%, -50%) scale(1) rotateY(0);
+  opacity: 1;
+  transition: transform 500ms linear 200ms, opacity 700ms linear;
 }
 
-.is-hidden>.modal {
-    opacity: 0;
-    transform: translate(-50%, -50%) scale(0) rotateY(90deg);
+.is-hidden > .modal {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0) rotateY(90deg);
 }
 
 .modal-close {
-    position: absolute;
-    top: 17px;
-    right: 17px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 25px;
-    height: 25px;
-    border: none;
-    background-color: #fff;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close:hover,
 .modal-close:focus {
-    fill: turquoise;
-
+  fill: turquoise;
 }
 
 /* *========== Форма ========== */
 
 .form-text {
-    letter-spacing: -0.02em;
+  letter-spacing: -0.02em;
 }
 
 .price {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: rgba(20, 20, 20, 0.5);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.5);
 }
 
 .modal-form {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .modal-form-field {
-    display: block;
-    margin-bottom: 18px;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  display: block;
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 }
 
 .modal-form-desc {
-    display: block;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: #141414;
-    margin-bottom: 12px;
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #141414;
+  margin-bottom: 12px;
 }
 
 .form-input {
-    display: block;
-    width: 100%;
-    height: 42px;
-    padding-left: 16px;
-    margin-bottom: 12px;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
-    padding: 12px 16px;
+  display: block;
+  width: 100%;
+  height: 42px;
+  padding-left: 16px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  padding: 12px 16px;
 
-    border: 1px solid rgba(20, 20, 20, 0.5);
-    border-radius: 8px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
 }
 
 .form-coment {
-    display: block;
-    width: 100%;
-    height: 170px;
-    padding: 8px 16px;
-    resize: none;
+  display: block;
+  width: 100%;
+  height: 170px;
+  padding: 8px 16px;
+  resize: none;
 
-    border: 1px solid rgba(20, 20, 20, 0.5);
-    border-radius: 8px;
+  border: 1px solid rgba(20, 20, 20, 0.5);
+  border-radius: 8px;
 }
 
 .form-input::placeholder {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 
-    color: rgba(20, 20, 20, 0.5);
+  color: rgba(20, 20, 20, 0.5);
 }
 
 .form-coment::placeholder {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    letter-spacing: -0.02em;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
 
-    color: rgba(20, 20, 20, 0.5);
+  color: rgba(20, 20, 20, 0.5);
 }
 
 .form-coment:focus {
-    outline: none;
-    border-color: teal;
+  outline: none;
+  border-color: teal;
 }
 
 .form-input:focus {
-    outline: none;
-    border-color: teal;
+  outline: none;
+  border-color: teal;
 }
 
 .modal-form-send {
-    display: block;
-    padding: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 12px;
-    width: 100%;
-    height: 50px;
-    border-radius: 8px;
-    background-color: #1e2827;
+  display: block;
+  padding: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  background-color: #1e2827;
 
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    color: #ffffff;
-    text-align: center;
-    text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .modal-form-send:hover,
 .modal-form-send:focus {
-    background-color: teal;
+  background-color: teal;
 }
 
 .modal-text {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: -0.02em;
-    color: rgba(20, 20, 20, 0.4);
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: rgba(20, 20, 20, 0.4);
 }
 
 @media screen and (max-width: 767px) {
-    .modal {
-        overflow-y: scroll;
-        height: 100%;
-    }
+  .modal {
+    overflow-y: scroll;
+    height: 100%;
+  }
 }
 
-
 @media screen and (min-width: 768px) {
-    .modal {
-        display: flex;
-        flex-wrap: wrap;
-        width: 744px;
-        height: 670px;
-        padding: 40px 30px 40px 30px;
-    }
+  .modal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 744px;
+    height: 670px;
+    padding: 40px 30px 40px 30px;
+  }
 
-    .modal-form-field {
-        font-size: 16px;
-    }
+  .modal-form-field {
+    font-size: 16px;
+  }
 
-    .mdl-img-box {
-        margin-right: 20px;
-    }
+  .mdl-img-box {
+    margin-right: 20px;
+  }
 
-    .modal-form {
-        margin-top: 0;
-        width: 368px;
-    }
+  .modal-form {
+    margin-top: 0;
+    width: 368px;
+  }
 
+  .form-input::placeholder {
+    font-size: 16px;
+  }
+
+  .form-coment::placeholder {
+    font-size: 16px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .modal {
-        width: 904px;
-        height: 694px;
-    }
+  .modal {
+    width: 904px;
+    height: 694px;
+  }
 
-    .mdl-img-box {
-        margin-right: 40px;
-    }
+  .mdl-img-box {
+    margin-right: 40px;
+  }
 
-    .modal-form {
-        width: 508px;
-    }
+  .modal-form {
+    width: 508px;
+  }
 
-    .modal-form-send {
-        margin-top: 40px;
-    }
+  .modal-form-send {
+    margin-top: 40px;
+  }
 }
