@@ -8,6 +8,6 @@ import './js/burger-menu'
 
 
 // ГАЛЕРЕЯ
-import './js/sale/jquery-3.3.1.min.js'
-import './js/sale/sale.js'
+import './js/sale/jquery-3.3.1.min'
+import './js/sale/sale'
 // ГАЛЕРЕЯ Кінець
