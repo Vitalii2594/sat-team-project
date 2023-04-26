@@ -4,7 +4,7 @@
 import './js/burger-menu'
 
 // МОДАЛКА
-// import '' 
+import './js/modal' 
 
 
 // ГАЛЕРЕЯ
