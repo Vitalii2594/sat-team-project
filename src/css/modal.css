@@ -190,13 +190,23 @@
         margin-right: 20px;
     }
 
-    .form-input,
-    .modal-form-send,
-    .modal-text {
+    .modal-form {
         width: 368px;
     }
 
-    .form-coment {
-        width: 368px;
+}
+
+@media screen and (min-width: 1280px) {
+    .modal {
+        width: 904px;
+        height: 694px;
+    }
+
+    .mdl-img-box {
+        margin-right: 40px;
+    }
+
+    .modal-form {
+        width: 508px;
     }
 }
