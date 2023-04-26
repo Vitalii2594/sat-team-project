@@ -28,7 +28,7 @@
 .modal {
     position: absolute;
     width: 335px;
-    height: 1073px;
+    /* height: 1073px; */
     background-color: #fcfcfc;
     top: 50%;
     left: 50%;
@@ -70,7 +70,6 @@
 
 .form-text {
     letter-spacing: -0.02em;
-    color: ;
 }
 
 .price {
@@ -186,6 +185,14 @@
     letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.4);
 }
+
+@media screen and (max-width: 767px) {
+    .modal {
+        overflow-y: scroll;
+        height: 100%;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .modal {
